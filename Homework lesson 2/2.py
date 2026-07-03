@@ -1,3 +1,5 @@
+# 2. “Середнє трьох чисел”
+
 first_number = int(input("Enter a number: "))
 second_number = int(input("Enter another number: "))
 third_number = int(input("Enter another number: "))

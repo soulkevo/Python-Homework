@@ -1,3 +1,5 @@
+# 5. “Остання цифра числа”
+
 number = int(input("Введіть число: "))
 
 last_number = number % 10
