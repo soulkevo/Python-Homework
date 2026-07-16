@@ -23,5 +23,6 @@ elif "__" in name_def:
     is_valid = False
 elif "___" in name_def:
     is_valid = False
-
+elif " " in name_def:
+    is_valid = False
 print(f"{is_valid}")
