@@ -9,9 +9,7 @@ for test_case in name_def:
         continue
     elif test_case in string.punctuation:
         is_valid = False
-        break
-    else:
-        continue
+
 
 if name_def in keyword.kwlist:
     is_valid = False
